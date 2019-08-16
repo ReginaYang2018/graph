@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "entity_id": 1, 
+            "name": "EntityA"
+        }, 
+        {
+            "entity_id": 2, 
+            "name": "EntityB"
+        }, 
+        {
+            "entity_id": 10002, 
+            "name": "EntityB"
+        }, 
+        {
+            "entity_id": 10001, 
+            "name": "EntityA"
+        }
+    ], 
+    "links": [
+        {
+            "to": 2, 
+            "from": 1
+        }, 
+        {
+            "to": 1, 
+            "from": 2
+        }, 
+        {
+            "to": 10002, 
+            "from": 10001
+        }, 
+        {
+            "to": 10001, 
+            "from": 10002
+        }, 
+        {
+            "to": 10001, 
+            "from": 2
+        }
+    ]
+}

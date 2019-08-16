@@ -1,0 +1,16 @@
+{
+	"entities": [{
+		"entity_id": 1,
+		"name": "EntityA"
+	}, {
+		"entity_id": 2,
+		"name": "EntityB"
+	}],
+	"links": [{
+		"from": 1,
+		"to": 2
+	}, {
+		"from": 2,
+		"to": 1
+	}]
+}
